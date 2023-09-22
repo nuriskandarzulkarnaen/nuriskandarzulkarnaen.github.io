@@ -26,14 +26,7 @@
 
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
-
-  <!-- =======================================================
-  * Template Name: iPortfolio
-  * Updated: Sep 18 2023 with Bootstrap v5.3.2
-  * Template URL: https://bootstrapmade.com/iportfolio-bootstrap-portfolio-websites-template/
-  * Author: BootstrapMade.com
-  * License: https://bootstrapmade.com/license/
-  ======================================================== -->
+  
 </head>
 
 <body>
@@ -48,51 +41,73 @@
       <div class="profile">
         <img src="assets/img/profile-img.jpg" alt="" class="img-fluid rounded-circle">
         <h1 class="text-light"><a href="index.html">Nur Iskandar Z.</a></h1>
-        <div class="social-links mt-3 text-center">
-          <a href="https://www.instagram.com/nuriskandarz/" class="instagram"><i class="bx bxl-instagram"></i></a>
-        </div>
       </div>
 
       <nav id="navbar" class="nav-menu navbar">
         <ul>
-          <li><a href="#about" class="nav-link scrollto active"><i class="bx bx-home"></i> <span>Home</span></a></li>
-          <li><a href="#resume" class="nav-link scrollto"><i class="bx bx-file-blank"></i> <span>Profil</span></a></li>
+          <li><a href="#portfolio-details" class="nav-link scrollto active"><i class="bx bx-home"></i> <span>Home</span></a></li>
+          <li><a href="#profil" class="nav-link scrollto"><i class="bx bx-user"></i> <span>Profil</span></a></li>
+          <li><a href="#pendidikan" class="nav-link scrollto"><i class="bx bx-briefcase"></i> <span>Pendidikan</span></a></li>
+          <li><a href="#deskripsi" class="nav-link scrollto"><i class="bx bx-clipboard"></i> <span>Deskripsi Tentang Diri </span></a></li>
+          <li><a href="#visimisi" class="nav-link scrollto"><i class="bx bx-check"></i> <span>Visi dan Misi Pernikahan</span></a></li>
         </ul>
       </nav><!-- .nav-menu -->
     </div>
   </header><!-- End Header -->
   <main id="main">
-
-    <!-- ======= About Section ======= -->
-    <section id="about" class="about">
+	
+	 <!-- ======= Portfolio Details Section ======= -->
+    <section id="portfolio-details" class="portfolio-details">
       <div class="container">
+	  
+		 <!-- ======= Breadcrumbs ======= -->
+		<section id="breadcrumbs" class="breadcrumbs">
+		  <div class="container">
 
-        <div class="section-title">
-          <h2>Nur Iskandar Zulkarnaen</h2>
-        </div>
+			<div class="d-flex justify-content-between align-items-center">
+			  <h2>CV NUR ISKANDAR ZULKARNAEN</h2>
+			</div>
 
-        <div class="row">
-          <div class="col-lg-4" data-aos="fade-center">
-            <img src="assets/img/profile-img.jpg" class="img-fluid" alt="">
+		  </div>
+		</section><!-- End Breadcrumbs -->
+
+        <div class="row gy-4">
+
+          <div class="col-lg-8">
+            <div class="portfolio-details-slider swiper">
+              <div class="swiper-wrapper align-items-center">
+
+                <div class="swiper-slide">
+                  <img src="assets/img/profile-img.jpg" alt="">
+                </div>
+
+                <div class="swiper-slide">
+                  <img src="assets/img/profile-img2.jpg" alt="">
+                </div>
+
+              </div>
+              <div class="swiper-pagination"></div>
+            </div>
           </div>
         </div>
+
       </div>
-    </section><!-- End About Section -->
+    </section><!-- End Portfolio Details Section -->
 
 	<!-- ======= Resume Section ======= -->
-    <section id="resume" class="resume">
+    <section class="resume">
       <div class="container">
 
         <div class="row">
-          <div class="col-lg-6" data-aos="fade-up">
+		  <div id="profil" class="col-lg-6" data-aos="fade-up">
             <h3 class="resume-title">PROFIL SINGKAT</h3>
             <div class="resume-item pb-0">
               <!-- <h4>Nur Iskandar Zulkarnaen</h4>-->
               <p><em>Assalamualaikum. Wr. Wb. <br>Bismillah, mohon izin memperkenalkan diri.</em></p>
               <ul>
-				  <li> <strong>Tanggal Lahir:</strong> <span>28 November 1994</span></li>
+				  <li> <strong>Usia :</strong> <span>28 Tahun (November 1994)</span></li>
                   <li></i> <strong>Domisili:</strong> <span>DKI Jakarta</span></li>
-                  <li></i> <strong>Daerah Asal:</strong> <span>Boyolali, Jateng</span></li>
+                  <li></i> <strong>Daerah Asal:</strong> <span>Boyolali, Jawa Tengah</span></li>
                   <li></i> <strong>Tinggi / Berat Badan:</strong> <span>170 cm / 62 Kg</span></li>
 				  <li></i> <strong>Suku :</strong> <span>Jawa</span></li>
 				  <li></i> <strong>Pekerjaan :</strong> <span>PNS</span></li>
@@ -103,30 +118,48 @@
               </ul>
             </div>
           </div>
-          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
-            <h3 class="resume-title">PENDIDIKAN FORMAL</h3>
+		  
+		  <div id="pendidikan" class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+            <h3 class="resume-title">PENDIDIKAN</h3>
             <div class="resume-item">
-              <h5>S1 Sistem Informasi UNAS Jakarta (2019 - 2020)</h5>
+              S1 Sistem Informasi UNAS Jakarta (2019 - 2020)
+            </div>
+			<div class="resume-item">
+              Pesantran Mahasiswa Tanwirul Fikr (2013 - 2016)
             </div>
             <div class="resume-item">
-              <h5>D3 Teknik Informatika UNS Surakarta (2013 - 2016)</h5>
+              D3 Teknik Informatika UNS Surakarta (2013 - 2016)
             </div>
 			<div class="resume-item">
-              <h5>SMK SAKTI Gemolong (2009 - 2012)</h5>
+              SMK SAKTI Gemolong (2009 - 2012)
             </div>
 			<div class="resume-item">
-              <h5>SMP Negeri 01 Andong (2006 - 2009)</h5>
+              SMP Negeri 01 Andong (2006 - 2009)
             </div>
 			<div class="resume-item">
-              <h5>SD Negeri 01 Ledo (2001 - 2006)</h5>
-            </div>
-			<h3 class="resume-title">PENDIDIKAN NON-FORMAL</h3>
-			<div class="resume-item">
-              <h5>Pesantran Mahasiswa Tanwirul Fikr (2013 - 2016)</h5>
+              SD Negeri 01 Ledo (2001 - 2006)
             </div>
           </div>
 		  
-		  <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+		  <div id="deskripsi" class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+            <h3 class="resume-title">DESKRIPSI TENTANG DIRI</h3>
+				<div class="resume-item">
+				<p align="justify">
+                Saya merupakan alumni SPN Salman ITB Online Batch 13. Saat ini saya bekerja sebagai Staff IT pada salahsatu Kementerian yang berkantor di Jakarta Selatan. Kegiatan sehari-hari saya yaitu bekerja dan menyalurkan hobi yaitu membaca, mengasah skill dibidang IT, mengikuti kajian islam, serta olahraga jogging. Sebulan sekali pada saat <i>weekend</i>, saya pulang kerumah orang tua di Boyolali Jawa Tengah. 
+				</p>
+				</div>
+				<div class="resume-item">
+					<h4>Kelebihan :</h4>
+					<h5 align="justify">InsyaAllah selalu mengusahakan ibadah sholat 5 waktu di masjid, mengerjakan ibadah sunnah, tidak merokok, mandiri, adaptif, penyayang terhadap keluarga, penyabar, tanggung jawab, tekun dan visioner.</h5>
+				</div>
+				
+				<div class="resume-item">
+					<h4>Kelemahan :</h4>
+					<h5 align="justify">Memiliki sifat pelupa terutama dalam menaruh barang, tidak enakan dan menunda-nunda pekerjaan sampai mendekati <i>deadline</i> . </h5>
+				</div>
+           </div>
+		   
+		  <div id="visimisi" class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
             <h3 class="resume-title">VISI DAN MISI PERNIKAHAN</h3>
             <div class="resume-item">
               <h4>Visi Pernikahan :</h4>
@@ -137,22 +170,15 @@
               <h5>
               <ul>
                 <li>Taat menjalankan perintah dan menjauhi larangan Allah SWT</li>
-                <li>Menjadikan rumah tangga/keluarga sebagai tempat paling nyaman untuk pulang dan tinggal bersama.</li>
-                <li>Keluarga sebagai tempat untuk mencari solusi dan berkeluh kasah atas semua masalah yang dihadapi.</li>
-                <li>Melewati semua rintangan dan ujian hidup secara bersama-sama dan saling menguatkan.</li>
+                <li>Membangun rumah-tangga dengan berlandaskan tuntunan agama islam</li>
+				<li>Membangun keluarga yang harmonis dan tetap berbakti kepada orang tua.</li>
+                <li>Menjadikan keluarga sebagai tempat paling nyaman untuk pulang dan tinggal bersama.</li>
+                <li>Menjadikan keluarga sebagai tempat untuk mencari solusi dan berkeluh kasah atas semua masalah yang dihadapi.</li>
+                <li>Melewati semua rintangan dan ujian hidup secara bersama-sama dan saling menguatkan dalam pernikahan.</li>
 			   </h5>
               </ul>
             </div>
           </div>
-		  
-		  <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
-            <h3 class="resume-title">DESKRIPSI TENTANG DIRI</h3>
-              
-              <p align="justify">Kegiatan sehari-hari saya yaitu bekerja serta menyalurkan beberpa hobi seperti membaca dan olahraga jogging. Sebulan sekali pada saat <i>weekend</i> saya pulang kerumah orang tua di Boyolali, Jawa Tengah.
-					Kelebihan saya yaitu merupakan pribadi yang tanggung jawab, pekerja keras dan sabar.
-					Kekurangan saya yaitu merupakan seseorang yang pelupa terutama dalam menaruh barang</p>
-			   
-           </div>
 		  
         </div>
 		
